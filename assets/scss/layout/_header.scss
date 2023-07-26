@@ -1,4 +1,54 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/*header*/
+.header {
+  background-color: #AA0601;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  text-align: left;
+  width: 80px;
+  height: 49px;
+  padding: 12px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu_i {
+  text-align: right;
+  padding: 0 32px;
+}
+
+a.i_menu {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.i_menu:hover {
+  color: #ff554f;
 }
